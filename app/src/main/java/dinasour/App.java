@@ -10,9 +10,10 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
+        metot1();
     }
 
-    public void metot1(){
-        System.out.println("erdem");
+    public static void metot1(){
+        System.out.println("dinozor");
     }
 }
